@@ -1,3 +1,4 @@
 infra/.terraform/
 infra/terraform.tfstate
+infra/terraform.tfstate.backup
 challenge-1000000-5minutes-golang.pem
