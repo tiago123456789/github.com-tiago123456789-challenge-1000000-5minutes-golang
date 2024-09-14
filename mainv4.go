@@ -60,7 +60,7 @@ func main() {
 	var wg sync.WaitGroup
 	var itemsPerMessage []string
 	var messages []*sqs.SendMessageBatchRequestEntry
-	for i := 0; i < 10000; i++ {
+	for i := 0; i < 100000; i++ {
 		fmt.Println(i)
 
 		itemsPerMessage = append(itemsPerMessage, messageBody)
